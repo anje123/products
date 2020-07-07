@@ -1,7 +1,8 @@
 
 HOW TO SETUP:
 ```
-CLONE THE REPO```
+ clone the repo
+```
 ```
  cp .env.example .env
 ```
@@ -11,9 +12,7 @@ CLONE THE REPO```
 ```
  php artisan migrate
 ```
-```
 
-```
 
 ## RESTful URLs
 ```
@@ -72,5 +71,3 @@ CLONE THE REPO```
 | HTTP METHOD | POST            | GET       | PUT         | DELETE |
 | ----------- | --------------- | --------- | ----------- | ------ |
 | CRUD OP     | CREATE          | READ      | UPDATE      | DELETE |
-
-
