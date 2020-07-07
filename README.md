@@ -27,6 +27,8 @@ HOW TO SETUP:
 *Logout a User:
     * GET /api/logout
      
+### You must Submit your Token in the Authorization Header to access the following routes
+
 * Add a new category:
     * POST /api/category/create
      field: name
