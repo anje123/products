@@ -73,3 +73,7 @@ HOW TO SETUP:
 | HTTP METHOD | POST            | GET       | PUT         | DELETE |
 | ----------- | --------------- | --------- | ----------- | ------ |
 | CRUD OP     | CREATE          | READ      | UPDATE      | DELETE |
+
+
+### Access Token Similar Image
+![Alt text](https://github.com/anje123/products/blob/master/image/token1.png "Optional Title")
