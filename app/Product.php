@@ -8,4 +8,8 @@ class Product extends Model
 {
     protected $fillable = ['name','description','category_id'];
 
+    public function category()
+    {
+        return $this->belongsTo('App\Category');
+    }
 }

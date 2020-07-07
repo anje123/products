@@ -25,47 +25,50 @@ HOW TO SETUP:
       field: email, password
       
 *Logout a User:
-    * GET /api/logout
+    * GET /api/auth/logout
+
+*Get Current User:
+    * GET /api/auth/user
      
 ### You must Submit your Token in the Authorization Header to access the following routes
 
 * Add a new category:
-    * POST /api/category/create
+    * POST /api/auth/category/create
      field: name
      
 * Edit a category:
-    * POST /api/category/:id
+    * POST /api/auth/category/:id
      field: name
      
 * Delete a category:
-    * DELETE /api/category/:id
+    * DELETE /api/auth/category/:id
     
 * Read a category:
-    * GET /api/category/:id 
+    * GET /api/auth/category/:id 
 
 * Read all category:
-    * GET /api/category
+    * GET /api/auth/category
     
     
 * Add a new product:
-    * POST /api/product/create
+    * POST /api/auth/product/create
      field: name
      
 * Edit a product:
-    * PUT /api/product/:id
+    * PUT /api/auth/product/:id
      field: name
      
 * Delete a product:
-    * DELETE /api/product/:id
+    * DELETE /api/auth/product/:id
     
 * Read a product:
-    * GET /api/category/:id 
+    * GET /api/auth/category/:id 
 
 * Read all product:
-    * GET /api/product
+    * GET /api/auth/product
     
 * Read all product to a category:
-    * GET /api/category_id/product
+    * GET /api/auth/category_id/product
 ```
 
 ## HTTP Verbs

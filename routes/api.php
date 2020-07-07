@@ -35,7 +35,7 @@ Route::group([
         Route::get('product', 'ProductController@index');
         Route::post('product/{id}', 'ProductController@update');
         Route::delete('product/{id}', 'ProductController@destroy');
-        Route::get('product/{category_id}', 'ProductController@getProductForOneCategory');
+        Route::get('product/category/{category_id}', 'ProductController@getProductForOneCategory');
 
 
 
